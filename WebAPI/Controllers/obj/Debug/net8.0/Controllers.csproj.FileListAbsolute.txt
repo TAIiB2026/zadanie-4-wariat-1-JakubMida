@@ -1,0 +1,12 @@
+C:\Users\Kuba\Desktop\zadanie-4-wariat-1-JakubMida\WebAPI\Controllers\bin\Debug\net8.0\Controllers.deps.json
+C:\Users\Kuba\Desktop\zadanie-4-wariat-1-JakubMida\WebAPI\Controllers\bin\Debug\net8.0\Controllers.dll
+C:\Users\Kuba\Desktop\zadanie-4-wariat-1-JakubMida\WebAPI\Controllers\bin\Debug\net8.0\Controllers.pdb
+C:\Users\Kuba\Desktop\zadanie-4-wariat-1-JakubMida\WebAPI\Controllers\obj\Debug\net8.0\Controllers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kuba\Desktop\zadanie-4-wariat-1-JakubMida\WebAPI\Controllers\obj\Debug\net8.0\Controllers.AssemblyInfoInputs.cache
+C:\Users\Kuba\Desktop\zadanie-4-wariat-1-JakubMida\WebAPI\Controllers\obj\Debug\net8.0\Controllers.AssemblyInfo.cs
+C:\Users\Kuba\Desktop\zadanie-4-wariat-1-JakubMida\WebAPI\Controllers\obj\Debug\net8.0\Controllers.csproj.CoreCompileInputs.cache
+C:\Users\Kuba\Desktop\zadanie-4-wariat-1-JakubMida\WebAPI\Controllers\obj\Debug\net8.0\Controllers.sourcelink.json
+C:\Users\Kuba\Desktop\zadanie-4-wariat-1-JakubMida\WebAPI\Controllers\obj\Debug\net8.0\Controllers.dll
+C:\Users\Kuba\Desktop\zadanie-4-wariat-1-JakubMida\WebAPI\Controllers\obj\Debug\net8.0\refint\Controllers.dll
+C:\Users\Kuba\Desktop\zadanie-4-wariat-1-JakubMida\WebAPI\Controllers\obj\Debug\net8.0\Controllers.pdb
+C:\Users\Kuba\Desktop\zadanie-4-wariat-1-JakubMida\WebAPI\Controllers\obj\Debug\net8.0\ref\Controllers.dll
