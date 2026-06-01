@@ -47,4 +47,13 @@ export class RepozytoriumPamiecioweService implements GetDataInterface, FormSubm
 
     throw new Error("Nie znaleziono obiektu.");
   }
+
+  Delete(id: number): Observable<boolean> {
+      const index = this.data.findIndex(x => x.id === id);
+      if (index !== -1) {
+        this.data.splice(index, 1);
+        return of(true);
+      }
+      return of(false);
+    }
 }

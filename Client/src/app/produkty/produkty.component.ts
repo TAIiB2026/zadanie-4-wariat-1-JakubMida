@@ -9,5 +9,10 @@ import { GET_DATA_TOKEN } from '../tokens/get-data.token';
 })
 export class ProduktyComponent {
   private readonly service = inject(GET_DATA_TOKEN);
-  public readonly data$ = this.service.Get();
+  public data$ = this.service.Get();
+  onDelete(id: number){
+    this.service.Delete(id).subscribe(() => { 
+      this.data$ = this.service.Get();
+    });
+  }
 }

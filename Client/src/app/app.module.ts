@@ -11,6 +11,9 @@ import { LOCALE_ID } from '@angular/core';
 import { registerLocaleData } from '@angular/common';
 import localePl from '@angular/common/locales/pl';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { GetDataService } from './Services/get-data.service';
+import { ProductFormService } from './Services/product-form.service';
 
 registerLocaleData(localePl);
 
@@ -23,15 +26,16 @@ registerLocaleData(localePl);
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [
     RepozytoriumPamiecioweService, 
     {
-      provide: GET_DATA_TOKEN, useExisting: RepozytoriumPamiecioweService,
+      provide: GET_DATA_TOKEN, useClass: GetDataService,
     }, 
     {
-      provide: FORM_SUBMIT_TOKEN, useExisting: RepozytoriumPamiecioweService
+      provide: FORM_SUBMIT_TOKEN, useClass: ProductFormService
     },
     { 
       provide: LOCALE_ID, useValue: 'pl-PL' 
